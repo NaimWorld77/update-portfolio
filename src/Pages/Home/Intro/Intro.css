@@ -1,0 +1,38 @@
+
+p{
+    text-align: left;
+    margin-left: 18%;
+    color: purple;
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+.link-button{
+    margin-left: 20px;
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 8px 25px;
+    border-radius: 5px;
+    color: rgb(250, 249, 249);
+    font-style: 700;
+    
+}
+.mt{
+    margin-top: 15%;
+}
+.button-st{
+    margin-right: 32%;
+    margin-top: 40px;
+}
+.text{
+    color: rgb(247, 95, 7);
+    font-weight: 900;
+}
+.name{
+    color:orange;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: sandybrown solid 10px;
+  }
