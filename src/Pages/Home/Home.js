@@ -1,7 +1,7 @@
 import React from 'react';
-import MySkills from '../../MySkills/MySkills';
-import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
+import Projects from '../Projects/Projects';
+import Skills from '../Skills/Skills';
 import Intro from './Intro/Intro';
 
 const Home = () => {
@@ -9,7 +9,10 @@ const Home = () => {
         <div className="bg-info">
             <Header></Header>
             <Intro></Intro>
-            <MySkills></MySkills>
+            <Skills></Skills>
+            <Projects></Projects>
+            
+            
             
             
         </div>
