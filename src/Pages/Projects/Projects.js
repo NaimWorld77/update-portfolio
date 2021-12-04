@@ -10,7 +10,7 @@ const Projects = () => {
         <div>
             <div className="row mx-4">
                 <h1 style={{color:'gold',fontWeight:'bold'}} className="py-3"> <u>MY PROJECTS</u> </h1>
-                <div className="col-md-4 col-sm-12">
+                <div className="col-md-4 col-sm-12 my-4">
                     <div style={{height:'100%'}} className="shadow p-2 mb-4 bg-body rounded">
                     <img  src={img1} className="img-fluid" alt="" />
                     <h3>Luxary-Gold <span>(Jewellery Website)</span></h3>
@@ -27,7 +27,7 @@ const Projects = () => {
                    </Link>
                     </div>
                 </div>
-                <div className="col-md-4 col-sm-12">
+                <div className="col-md-4 col-sm-12 my-4">
                 <div style={{height:'100%'}}  className="shadow p-2 mb-4 bg-body rounded">
                     <img src={img2}  className="img-fluid" 
                     alt="" />
@@ -48,7 +48,7 @@ const Projects = () => {
                 </div>
                 </div>
 
-                <div className="col-md-4 col-sm-12">
+                <div className="col-md-4 col-sm-12 my-4">
                 <div style={{height:'100%'}}  className="shadow p-2 mb-4 bg-body rounded">
                     <img src={img3} className="img-fluid" alt="" />
                     <h3>NA HeathCare <span>(Health Care Website)</span></h3>
