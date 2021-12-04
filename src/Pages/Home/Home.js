@@ -1,4 +1,7 @@
 import React from 'react';
+import AboutMe from '../AboutMe/AboutMe';
+import Contractform from '../Contactform/Contractform';
+import Education from '../Education/Education';
 import Header from '../Header/Header';
 import Projects from '../Projects/Projects';
 import Skills from '../Skills/Skills';
@@ -11,6 +14,9 @@ const Home = () => {
             <Intro></Intro>
             <Skills></Skills>
             <Projects></Projects>
+            <Education></Education>
+            <Contractform></Contractform>
+            <AboutMe></AboutMe>
             
             
             

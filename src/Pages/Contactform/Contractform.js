@@ -23,12 +23,13 @@ const Contractform = () => {
 
 
     return (
-        
+        <div style={{margin:'0 70px',}} className="shadow p-2 mb-4 bg-light rounded">
         <div className="container border image-border">
             <div className="row">
                 <div className="col-md-12">
-
-               <h1>Contact Me</h1>
+               
+ 
+               <h1 style={{color:'tomato',fontWeight:'bold'}}>Contact Me</h1>
             <form className="box-form"
             onSubmit={sendEmail}
             >
@@ -43,6 +44,7 @@ const Contractform = () => {
                 <input type="submit" value="send" className="form-control btn btn-primary " />
             </form>
                </div>
+                </div>
                 </div>
                 </div>
             

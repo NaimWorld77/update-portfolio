@@ -1,7 +1,10 @@
 import { BrowserRouter as Router,Route,Switch } from 'react-router-dom';
 import './App.css';
+import OneProject from './Pages/AllProjects/OneProject';
+import ThreeProject from './Pages/AllProjects/ThreeProject';
+import TwoProjects from './Pages/AllProjects/TwoProjects';
 import Contractform from './Pages/Contactform/Contractform';
-import Footer from './Pages/Footer/Footer';
+import Education from './Pages/Education/Education';
 import Home from './Pages/Home/Home';
 
 function App() {
@@ -16,9 +19,18 @@ function App() {
           <Route path="/contactme">
             <Contractform></Contractform>
           </Route>
-          {/* <Route path="/footer">
-            <Footer></Footer>
-          </Route> */}
+          <Route path="/oneprojects">
+            <OneProject></OneProject>
+          </Route>
+          <Route path="/twoprojects">
+            <TwoProjects></TwoProjects>
+          </Route>
+          <Route path="/threeproject">
+            <ThreeProject></ThreeProject>
+          </Route>
+          <Route path="/education">
+            <Education></Education>
+          </Route>
         </Switch>
       </Router>
       
