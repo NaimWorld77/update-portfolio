@@ -23,7 +23,7 @@ const Contractform = () => {
 
 
     return (
-        <div style={{margin:'0 70px',}} className="shadow p-2 mb-4 bg-light rounded">
+        <div style={{margin:'0 70px',}} className="shadow p-2 mb-4 bg-light rounded" id="contractform">
         <div className="container border image-border">
             <div className="row">
                 <div className="col-md-12">

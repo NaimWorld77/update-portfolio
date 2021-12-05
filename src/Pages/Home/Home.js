@@ -9,18 +9,14 @@ import Intro from './Intro/Intro';
 
 const Home = () => {
     return (
-        <div className="bg-info">
+        <div className="bg-info" id="home">
             <Header></Header>
             <Intro></Intro>
             <Skills></Skills>
             <Projects></Projects>
             <Education></Education>
             <Contractform></Contractform>
-            <AboutMe></AboutMe>
-            
-            
-            
-            
+            <AboutMe></AboutMe>    
         </div>
     );
 };

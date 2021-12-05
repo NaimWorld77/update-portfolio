@@ -2,7 +2,7 @@ import React from 'react';
 
 const Education = () => {
     return (
-        <div className="mx-4 my-4">
+        <div className="mx-4 my-4" id="education">
         <div className="">
             <h1 style={{color:'gold',fontWeight:'bold'}}> <u>Education</u>
             </h1>

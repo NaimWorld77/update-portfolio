@@ -3,7 +3,7 @@ import React from 'react';
 const AboutMe = () => {
     return (
         <div>
-            <div className="row">
+            <div className="row" id="aboutme">
                 <div  className="col-md-12 col-sm-12">
                     <div style={{margin:"40px"}} >
                     <h1>ABDU NAIM</h1>

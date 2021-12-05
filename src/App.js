@@ -16,9 +16,12 @@ function App() {
           <Route exact path="/">
           <Home></Home>
           </Route>
-          <Route path="/contactme">
-            <Contractform></Contractform>
+          <Route exact path="/home">
+          <Home></Home>
           </Route>
+          {/* <Route path="/contactme">
+            <Contractform></Contractform>
+          </Route> */}
           <Route path="/oneprojects">
             <OneProject></OneProject>
           </Route>
@@ -28,9 +31,9 @@ function App() {
           <Route path="/threeproject">
             <ThreeProject></ThreeProject>
           </Route>
-          <Route path="/education">
+          {/* <Route path="/education">
             <Education></Education>
-          </Route>
+          </Route> */}
         </Switch>
       </Router>
       

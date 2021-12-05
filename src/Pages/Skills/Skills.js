@@ -6,7 +6,7 @@ import img3 from '../../images/skills/mern-stack.jpg'
 const Skills = () => {
     return (
         <div>
-            <div className="row mx-4 my-4">
+            <div className="row mx-4 my-4" id="skills">
                 <h1 style={{color:'gold',fontWeight:'bold'}} className="py-3"> <u>MY SKILLS</u> </h1>
                 <div className="col-md-4 col-sm-12 my-4">
                     <div style={{height:'100%'}} className="shadow p-3 mb-5 bg-body rounded">
